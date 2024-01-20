@@ -1,18 +1,23 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "Qwik",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "Qwik is a multipurpose Discord bot.",
   mainNav: [
     {
       title: "Home",
       href: "/",
     },
+    {
+      title: 'dashboard',
+      href: "/dashboard"
+    }
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    twitter: "https://twitter.com/.../",
+    github: "https://github.com/name/rep_name",
+    invite: "discord.com/oauth/....",
+    docs: "/docs",
   },
 }
